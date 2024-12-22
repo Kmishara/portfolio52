@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <style>
+      /* #project-list{
+    display: none;
+  } */
+    </style>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav id="navbar">
+      <div class="container">
+        <a href="index.html">Khushi Mishra</a>
+
+        <div class="links">
+          <ul>
+            <li><a href="#home-section">Home</a></li>
+            <li><a href="#about-section">About</a></li>
+            <li><a href="#projects-section">Projects</a></li>
+            <li><a href="#contact-section">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- home -->
+    <section id="home-section">
+      <div id="left">
+        <h1>I'm <span>Khushi Mishra</span></h1>
+        <h2>MernStack Developer</h2>
+        <p>
+          I build modern, scalable, and high-performance web applications using
+          the MERN stack (MongoDB, Express.js, React.js, and Node.js). With
+          hands-on experience in developing full-stack projects, I specialize in
+          creating clean, responsive, and dynamic applications that deliver an
+          exceptional user experience.
+        </p>
+        <button class="btn">
+          <a href="./RESUME KHUSHI MISHRA (52).pdf" download>Download CV</a>
+        </button>
+      </div>
+      <div id="right">
+        <img src="./profile.jpeg" alt="" />
+      </div>
+    </section>
+    <!-- about -->
+    <section id="about-section">
+      <div id="container-about">
+        <div id="row">
+          <div class="about-col1">
+            <img src="./profile.jpeg" alt="" />
+            <div id="links">
+                <div class="social-links">
+                    <a href="https://github.com/Kmishara/"><i class="ri-github-fill"></i></a>
+                    <a href="https://www.linkedin.com/in/khushi-mishra-5b0726260"><i class="ri-linkedin-line"></i></a>
+                    <a href=""><i class="ri-mail-line"></i></a>
+                </div>
+            </div>
+          </div>
+          <div class="about-col2">
+            <h1 class="sub-title">About me</h1>
+            <p>
+              I build modern, scalable, and high-performance web applications
+              using the MERN stack (MongoDB, Express.js, React.js, and Node.js).
+              With hands-on experience in developing full-stack projects, I
+              specialize in creating clean, responsive, and dynamic applications
+              that deliver an exceptional user experience.
+            </p>
+
+            <div class="tab-text">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">education</p>
+            </div>
+            <div class="tab-content active-tab" id="skills">
+              <ul>
+                <li><span>Programing language</span><br />Javascript</li>
+                <li><span>Technologies</span><br />HTML, CSS</li>
+                <li>
+                  <span> FrameWork & Library</span><br />React JS, Node
+                  JS,Express JS
+                </li>
+                <li><span>Database</span><br />MongoDB</li>
+              </ul>
+            </div>
+            <div class="tab-content" id="experience">
+              <ul>
+                <li>
+                  <span>August 2024-present.</span><br />RID Bharat as a backend
+                  developer.
+                </li>
+              </ul>
+            </div>
+            <div class="tab-content" id="education">
+              <ul>
+                <li>
+                  <span>2021-present</span><br />Bachelor of Technology(7.68)
+                </li>
+                <li><span>2019-2021</span><br />Higher Seconday (71%)</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- project -->
+    <section id="projects-section">
+      <div id="project-container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="services-list">
+          <div class="project">
+            <img src="./premium_photo-1672234253746-99ac19181f0b.avif" alt="" />
+            <div class="layer">
+              <h3>social Media</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab ad
+                suscipit fuga.
+              </p>
+              <a href="#"><i class="ri-link"></i></a>
+            </div>
+          </div>
+          <div class="project">
+            <img src="./premium_photo-1672234253746-99ac19181f0b.avif" alt="" />
+            <div class="layer">
+              <h3>social Media</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab ad
+                suscipit fuga.
+              </p>
+              <a href="#"><i class="ri-link"></i></a>
+            </div>
+          </div>
+          <div class="project">
+            <img src="./premium_photo-1672234253746-99ac19181f0b.avif" alt="" />
+            <div class="layer">
+              <h3>social Media</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab ad
+                suscipit fuga.
+              </p>
+              <a href="#"><i class="ri-link"></i></a>
+            </div>
+          </div>
+        </div>
+        <button id="myButton" class="btn">see more</button>
+
+        <div id="project-list">
+          <div class="project">
+            <img src="./premium_photo-1672234253746-99ac19181f0b.avif" alt="" />
+            <div class="layer">
+              <h3>social Medi</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab ad
+                suscipit fuga.
+              </p>
+              <a href="#"><i class="ri-link"></i></a>
+            </div>
+          </div>
+          <div class="project">
+            <img src="./premium_photo-1672234253746-99ac19181f0b.avif" alt="" />
+            <div class="layer">
+              <h3>social Medi</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab ad
+                suscipit fuga.
+              </p>
+              <a href="#"><i class="ri-link"></i></a>
+            </div>
+          </div>
+          <div class="project">
+            <img src="./premium_photo-1672234253746-99ac19181f0b.avif" alt="" />
+            <div class="layer">
+              <h3>social Media</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab ad
+                suscipit fuga.
+              </p>
+              <a href="#"><i class="ri-link"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- contact -->
+    <section id="contact-section">
+      <div id="contact-container">
+        <h1>Get Me Touch</h1>
+      </div>
+
+      <div id="contact-left-container">
+        <div class="contact-info">
+          <div class="box">
+            <div class="icon"><i class="ri-map-pin-fill"></i></div>
+            <div class="contact-text">
+              <h3>Address</h3>
+              <p>Bhopal,M.P.</p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="icon"><i class="ri-phone-fill"></i></div>
+            <div class="contact-text">
+              <h3>Phone</h3>
+              <p>7979764204</p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="icon"><i class="ri-mail-line"></i></div>
+            <div class="contact-text">
+              <h3>Email</h3>
+              <p>khushimishra0115@gmail.com</p>
+            </div>
+          </div>
+        </div>
+        <div id="contactt-form">
+          <form id="contact-form" method="post" action="/contact">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required /><br /><br />
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required /><br /><br />
+
+            <label for="msg">Message:</label>
+            <textarea id="msg" name="msg" required></textarea><br /><br />
+
+            <button type="submit">Send</button>
+          </form>
+
+          <script>
+            const form = document.getElementById("contact-form");
+
+            form.addEventListener("submit", async (e) => {
+              e.preventDefault(); // Prevent form submission refresh
+              const formData = {
+                name: document.getElementById("name").value,
+                email: document.getElementById("email").value,
+                msg: document.getElementById("msg").value,
+              };
+              try {
+                const response = await fetch("http://localhost:3000/contact", {
+                  method: "POST",
+                  headers: { "Content-Type": "application/json" },
+                  body: JSON.stringify(formData),
+                });
+                if (response.ok) {
+                  alert("Message sent successfully!");
+                  form.reset();
+                } else {
+                  alert("Failed to send message. Try again.");
+                }
+              } catch (error) {
+                alert("Error: Unable to send message.");
+              }
+            });
+          </script>
+        </div>
+      </div>
+    </section>
+    <!-- js -->
+ <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-content");
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+    <script>
+      const button = document.getElementById("myButton");
+      const hiddenDiv = document.getElementById("project-list");
+      button.addEventListener("click", () => {
+        button.style.display = "none"; // Hide the button
+        hiddenDiv.style.display = "grid"; // Show the div
+      });
+    </script>
+  </body>
+</html>
