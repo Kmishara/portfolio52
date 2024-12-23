@@ -14,9 +14,9 @@ app.use(express.static(path.join(__dirname, "public")));
 app.get("/", (req, res) => {
   res.sendFile(path.join(__dirname,"public", "index.html"));
 });
-app.post("/contact", (req, res) => {
-  res.sendFile(path.join(__dirname, "public","index.html"));
-});
+// app.post("/contact", (req, res) => {
+//   res.sendFile(path.join(__dirname, "public","index.html"));
+// });
 app.post('/contact',function(req,res,next){
     var transporter = nodemailer.createTransport({
       service: 'gmail',
